@@ -19,7 +19,7 @@ Example:
 
 @demo
 -->
-<dom-module id="seed-element">
+<dom-module id="test-element">
 
   <style>
     :host {
@@ -36,7 +36,7 @@ Example:
   </style>
 
   <template>
-    <h1>&lt;seed-element&gt;</h1>
+    <h1>&lt;test-element&gt;</h1>
     <content></content>
     <p class="author">
       <img src="{{author.image}}">
@@ -51,7 +51,7 @@ Example:
 
   Polymer({
 
-    is: 'seed-element',
+    is: 'test-element',
 
     properties: {
 
@@ -132,7 +132,7 @@ Example:
      */
     sayHello: function(greeting) {
       var response = greeting || 'Hello World!';
-      return 'seed-element says, ' + response;
+      return 'test-element says, ' + response;
     },
 
     /**
@@ -142,7 +142,7 @@ Example:
      * do the zapping.
      */
     fireLasers: function() {
-      this.fire('seed-element-lasers', {sound: 'Pew pew!'});
+      this.fire('test-element-lasers', {sound: 'Pew pew!'});
     }
 
   });

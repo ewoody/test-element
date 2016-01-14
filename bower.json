@@ -1,5 +1,5 @@
 {
-  "name": "seed-element",
+  "name": "test-element",
   "version": "1.0.0",
   "authors": [
     "Anonymous <anonymous@example.com>"
@@ -9,11 +9,11 @@
     "web-component",
     "web-components",
     "polymer",
-    "seed"
+    "test"
   ],
-  "main": "seed-element.html",
+  "main": "test-element.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "homepage": "https://github.com/ewoody/test-element/",
   "ignore": [
     "/.*",
     "/test/",
